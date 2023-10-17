@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Hand Gesture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    
+  </head>
+
+  <body>
+    <div class="container">
+
+        <center>
+            <h3 class="btn btn-warning" id="h2">Gesture Web App
+                <br>
+                <span>&#128077;</span>
+                <span>&#128078;</span>
+                <span>&#9996;</span>
+                <span>&#128076;</span>
+            </h2>
+
+            <br><br>
+
+            <h3 id="h4">Take A Photo Of The Gesture To Know It's Meaning</h3>
+
+            <br>
+
+            <label id="l1">On The Following Gestures The Model Is Trained
+                <br><br>
+                <span>&#128077;</span>
+                <span>&#128078;</span>
+                <span>&#9996;</span>
+                <span>&#128076;</span>
+            </label>
+            <br><br>
+        
+    </div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12" id="d1">
+        <label>Webcam View - </label>
+        <div id="camera"></div>
+        <br>
+        <button class="btn btn-warning" onclick="take_snapshot()" id="b1">Capture The Image</button>
+    </div>
+
+      <label id="l2">Prediction - </label>
+
+      </center>
+      
+    <div class="col-md-4 col-sm-12 col-xs-12" id="d2">
+      <label id="l3">Snapshot - </label>
+      <div id="result"></div>
+      <br>
+      <button class="btn btn-success" onclick="predict()" id="b2">Predict Gesture</button>
+    </div>
+
+<script src="Main.js"></script>
+  </body>
+  </html>

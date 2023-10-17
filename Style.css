@@ -1,0 +1,79 @@
+body
+{
+  background-image: linear-gradient(to bottom right, Red, rgba(255, 166, 0, 0.959), rgb(30, 255, 0), rgb(0, 162, 255));
+}
+
+span
+{
+    font-size: 40px;
+}
+
+#h2
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+#h4
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#l1
+{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+#d1
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#b1
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#camera, #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+#l3
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-style: italic;
+}
+
+#d2
+{
+    margin-left: 410px;
+    margin-bottom: 400px;
+}
+
+#l2
+{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    position: absolute;
+}
+
+#b2
+{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
